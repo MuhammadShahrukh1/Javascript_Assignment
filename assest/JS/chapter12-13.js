@@ -16,7 +16,7 @@ function character() {
             icon: "success"
         })
     }
-    else if (code >= 0 && code <= 9) {
+    else if (code >= 48 && code <= 57) {
         swal.fire({
             title: `${character}`,
             text: "The given input is number",
