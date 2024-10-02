@@ -108,7 +108,7 @@ function task6_c(){
 function task6_d(){
     document.getElementById('task_result').innerHTML +=(`
         <hr>
-        <h1>Answer Of Question 6 part C</h1>
+        <h1>Answer Of Question 6 part D</h1>
         <hr>
         <h1>ODD Number:</h1>
         <br />`)
@@ -126,7 +126,7 @@ function task6_d(){
 function task6_e(){
     document.getElementById('task_result').innerHTML +=(`
         <hr>
-        <h1>Answer Of Question 6 part C</h1>
+        <h1>Answer Of Question 6 part E</h1>
         <hr>
         <h1>Series:</h1>
         <br />`)
