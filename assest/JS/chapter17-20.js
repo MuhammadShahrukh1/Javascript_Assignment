@@ -108,7 +108,7 @@ function task6_c(){
 function task6_d(){
     document.getElementById('task_result').innerHTML +=(`
         <hr>
-        <h1>Answer Of Question 6 part D</h1>
+        <h1>Answer Of Question 6 part C</h1>
         <hr>
         <h1>ODD Number:</h1>
         <br />`)
@@ -126,7 +126,7 @@ function task6_d(){
 function task6_e(){
     document.getElementById('task_result').innerHTML +=(`
         <hr>
-        <h1>Answer Of Question 6 part E</h1>
+        <h1>Answer Of Question 6 part C</h1>
         <hr>
         <h1>Series:</h1>
         <br />`)
@@ -216,3 +216,18 @@ function task10(){
             }
         }
 }
+
+var arr1 = [1,2,3,4];
+var arr2 = [];
+var initial = 1;
+for(var i = 0; i < arr1.length; i++){
+    for(var j = 0; j < arr1.length; j++){
+        // console.log(arr1[j])
+        initial *=arr1[j]
+        // console.log(initial)
+    }
+    initial = initial/arr1[i];
+    arr2.push(initial);
+    initial = 1;
+}
+console.log(arr2)
